@@ -1,0 +1,19 @@
+.posts {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+}
+.post {
+  background-color: fff;
+
+  box-shadow: 10px 10px 12px -2px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 10px 10px 12px -2px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 10px 10px 12px -2px rgba(0, 0, 0, 0.31);
+}
+.container {
+  max-height: 100vh;
+  background: #eee;
+}
+.post img {
+  max-width: 100%;
+}
